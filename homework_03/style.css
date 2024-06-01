@@ -1,0 +1,40 @@
+ol{
+    font-family: sans-serif;
+    font-weight: bold;
+    list-style-type: upper-roman;
+}
+li>ol{
+    color: black;
+    list-style-type: lower-latin;
+}
+#red{
+    color: rgb(211, 23, 24);
+}
+#orange{
+    color: rgb(236, 168, 35);
+}
+#green{
+    color: rgb(25, 117, 18);
+}
+#blue{
+    color: rgb(27, 138, 184);
+}
+#violet{
+    color: rgb(61, 40, 109);
+}
+#green>ol>li>ul{
+    list-style-image: url(images/orange_marker.png);
+}
+#violet>ol>li>ul{
+    list-style-image: url(images/red_marker.png);
+}
+#layout_methods>ul{
+    list-style-image: url(images/green_marker.png);
+}
+.basics_of_work>ul{
+    list-style-image: url(images/blue_marker.png);
+}
+#extensions>ul{
+    list-style-image: url(images/black_marker.png);
+}
+

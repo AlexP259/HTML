@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <title>Document</title>
 </head>
-<body style="background: green">
+<body>
     <!-- <ul>
         <li>1 Общие сведения
             <ul>
@@ -51,12 +51,13 @@
         <li>Элемент списка 7</li>
     </ol> -->
     <!-- type="disc | circle | square" -->
-    <ul style="list-style-type: circle; list-style-image: url('icon.jpg');">
-        <li>Элемент списка 1</li>
+    <!-- <ul style="list-style-type: circle; list-style-position: inside; list-style-image: url(icon.png);"> -->
+    <ul style="list-style: circle inside url(icon.png);">
+        <li style="background: yellow;">Элемент списка 1 Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi dolor, facere illum aperiam, deserunt in, facilis non illo maxime aut vitae! Enim quasi cumque maiores! Quibusdam, maxime. Quis, eveniet ut.</li>
         <li>Элемент списка 2</li>
         <li>Элемент списка 3</li>
         <li>Элемент списка 4
-            <ul> 
+            <ol style="list-style-type: lower-greek; list-style-image: none;"> 
                 <li>Элемент 4.1</li>
                 <li>Элемент 4.2
                     <ul>
@@ -65,7 +66,7 @@
                     </ul>
                 </li>
                 <li>Элемент 4.3</li>
-            </ul>
+            </ol>
         </li>
         <li>Элемент списка 5</li>
         <li>Элемент списка 6</li>
