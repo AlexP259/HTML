@@ -1,0 +1,66 @@
+#spring, #spring a:link{
+    color: green;
+}
+#spring, #spring a:visited{
+    color: green;
+}
+#spring a:hover{
+    color: rgb(74, 248, 39);
+}
+
+#summer, #summer>ul>li, #summer a:link{
+    color: rgb(200, 0, 0);
+}
+#summer, #summer a:visited{
+    color: rgb(200, 0, 0);
+}
+#summer a:hover{
+    color: rgb(255, 0, 00);
+}
+
+#autumn, #autumn a:link{
+    color: rgb(210, 210, 0);
+}
+#autumn, #autumn a:visited{
+    color: rgb(210, 210, 0);
+}
+#autumn a:hover{
+    color: rgb(255, 255, 0);
+}
+
+#winter, #winter a:link{
+    color: rgb(0, 0, 180);
+}
+#winter, #winter a:visited{
+    color: rgb(0, 0, 180);
+}
+#winter a:hover{
+    color: rgb(125, 125, 255);
+}
+
+#menu{
+    border: 2px dashed black;
+    font-size: 20px;
+    width: 300px;
+    margin: auto;
+} 
+
+ul{
+    margin: 5px 10px;
+    line-height: 25px;
+}
+
+#horoscope{
+    font-size: 18px;
+    border: 2px dashed rgba(22, 22, 255, 0.5);
+    padding: 20px 0 50px;
+}
+
+.title{
+    margin: 0 15px;
+}
+
+.description{
+    margin: 0 15px 0 50px;
+    text-align: justify;
+}

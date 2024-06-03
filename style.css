@@ -1,6 +1,14 @@
 body{
-    background-color: rgba(0, 255, 255, 0.178) ;
+    /* background-color: rgba(0, 255, 255, 0.178);
+    background-image: url(background-image/leo.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-attachment: fixed; */
+    background: rgba(0, 255, 255, 0.178) 
+    url(background-image/leo.png) no-repeat right bottom fixed;
+    background-size: auto 100%;
 }
+/* background-position: left | right | top | bottom | center */
 p{
     background-color: rgba(255, 228, 196, 0.5);
 }
