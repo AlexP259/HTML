@@ -1,0 +1,39 @@
+html, body{     /* margin у body делает отступ который нам не нужне сверху */
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 700px;
+    margin: 0 auto;
+    border: 1px solid blue;
+}
+
+.header{
+    background-color: greenyellow;    
+    height: 100px;
+}
+
+.left{
+    background-color: yellow;
+    width: 200px;
+    float: left;
+}
+
+.menu{
+    background-color: yellow;   
+    width: 200px; 
+    float: right;
+}
+
+.content{
+    background-color: orange;   
+    margin-right: 202px;
+    margin-left: 202px;
+}
+
+.footer{
+    background-color: silver;    
+    height: 50px;
+    clear: both;
+}
