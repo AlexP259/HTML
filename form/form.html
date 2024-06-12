@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="style.css">
+	<title>Form</title>
+</head>
+
+<body>
+	<form action="#file.php" method="get">
+
+		<input type="text" list="technology">
+
+		<datalist id="technology">
+			<option value="HTML"></option>
+			<option value="CSS"></option>
+			<option value="JavaScript"></option>
+			<option value="React"></option>
+			<option value="Angular"></option>
+			<option value="PHP"></option>
+			<option value="Java"></option>
+		</datalist>
+
+
+		<fieldset>
+			<legend><h3>Какие языки вы знаете</h3></legend>
+			<p>
+				<input type="checkbox" id="ru" checked>
+				<label for="ru">Русский</label><br>
+	
+				<label for="en"><input type="checkbox" id="en"> Английский</label><br>
+	
+				<input type="checkbox"> Немецкий
+
+				<p><input type="submit" value="Применить"></p>
+			</p>	
+		</fieldset>
+		<p>
+			<select>
+				<optgroup label="Цвет">
+					<option>Красный</option>
+					<option>Желтый</option>
+					<option>Зеленый</option>
+				</optgroup>
+				<optgroup label="Тон">
+					<option>Светлый</option>
+					<option>Темный</option>
+				</optgroup>
+			</select>
+		</p>
+		<p>
+			<textarea cols="50" rows="5" placeholder="Текст подсказки" maxlength="20"></textarea>
+		</p>
+		<p>
+			<select name="day">
+				<option value="1">Понедельник</option>
+				<option value="2">Вторник</option>
+				<option value="3">Среда</option>
+				<option value="4">Четверг</option>
+				<option value="5">Пятница</option>
+				<option value="6">Суббота</option>
+				<option value="7">Воскресенье</option>
+			</select>
+		</p>
+		<p>
+			<select multiple size="7">
+				<option value="" disabled>День недели</option>
+				<option value="">Понедельник</option>
+				<option value="">Вторник</option>
+				<option value="">Среда</option>
+				<option value="">Четверг</option>
+				<option value="">Пятница</option>
+				<option value="">Суббота</option>
+				<option value="">Воскресенье</option>
+			</select>
+		</p>
+		
+		<p>
+			<label for="type_color">Выберите цвет: <input type="color" id="type_color"></label><br>
+			<label for="type_date">Выберите дату: <input type="date" id="type_date"></label><br>			
+			<label for="type_datetime-local">Выберите дату и время: <input type="datetime-local" id="type_datetime-local"></label><br>		
+			<label for="type_email">Введите email: <input type="email" id="type_email"></label><br>
+			<label for="type_number">Выберите номер: <input type="number" id="type_number" min="13" max="88"></label><br>
+			<label for="type_range">Выберите диапазон: <input type="range" id="type_range"></label><br><!-- без typeScript особо смысла нет -->
+			<label for="type_search">Поиск: <input type="search" id="type_search"></label><br>
+			<label for="type_tel">Телефон: <input type="tel" id="type_tel"></label><br>
+			<label for="type_week">Неделя: <input type="week" id="type_week"></label>
+			
+			
+		</p>
+
+		<p>Введите имя: <input type="text" name="name" placeholder="Имя" size="40" maxlength="6"></p>
+		<p>
+			<label for="passwd">
+				Введите пароль: <input type="password" name="psw" id="passwd">
+			</label>
+		</p>
+		<p><input type="file"></p>
+		<h3>Какие языки вы знаете</h3>
+		<p>
+			<input type="checkbox" id="ru" checked disabled>
+			<label for="ru">Русский</label><br>
+
+			<label for="en"><input type="checkbox" id="en"> Английский</label><br>
+
+			<input type="checkbox"> Немецкий
+		</p>	
+		<h3>Ваш пол:</h3>
+		<p>
+			<input type="radio" name="pol" checked> М<br>
+			<input type="radio" name="pol"> Ж
+		</p>
+		<p>
+			<input type="reset" value="Обновить">
+			<input type="submit" value="Применить">
+			<button>Кнопка для отправки данных</button>
+			<input type="button" value="Кнопка">
+			<input type="image" src="1.png" alt="" >
+		</p>
+	</form>
+</body>
+
+</html>

@@ -1,0 +1,30 @@
+input[type="text"]{
+    background-color: yellow;
+    color: green;
+    padding: 10px;
+    border-radius: 16px 100px 30px 0;
+}
+
+/* input[type="button"]{
+    width: 100px;
+    height: 100px; 
+    border-radius: 50%;
+    background: transparent;
+    color: blue;
+    font-size: 20px;
+    padding: 20px 50px;
+    border: 5px solid red;
+} */
+
+input[type="checkbox"], input[type="radio"]{
+    width: 40px;
+    height: 40px;
+    background: red;
+    color: orange;
+    border-radius: 16px 100px 30px 0;
+}
+
+select{
+    background-color: yellow;
+    color: green;
+}

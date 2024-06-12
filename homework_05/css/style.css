@@ -1,0 +1,128 @@
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px;
+}
+
+.container p{
+    font-size: 14px;
+    margin-right: 100px;
+}
+
+.header{
+    margin: 20px;
+}
+
+.header div{
+    float: right;
+    margin-top: 25px;
+    font-size: 14px;
+}
+
+.header select{
+    width: 140px;
+}
+
+.sign_up_form_border{
+    border: 2px solid rgb(203, 220, 237);
+    margin: 30px 0;
+}
+
+.sign_up_form_border h3{
+    margin: 30px 10px 10px;
+    color: rgb(51, 102, 204);
+}
+
+.sign_up_form_border label{
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.sign_up_form_border form table td{
+    height: 40px;
+    vertical-align: top;
+    font-size: 14px;
+}
+
+.first_col{
+    width: 200px;
+}
+
+td input[type="text"], #passwd, #passwd2{
+    width: 220px;
+    height: 18px;
+}
+
+.domain{
+    font-style: italic;
+}
+
+.help{
+    color: rgb(111, 111, 111);
+}
+
+.padding-b{
+    padding-bottom: 12px;
+}
+
+.check_accessibility{
+    margin: 20px 0 25px;
+    border-radius: 4px;
+}
+
+#remain_in_the_system{
+    margin: 15px 0;
+}
+
+#enable_web_search_history{
+    margin: 0 0 50px;
+} 
+
+label[for="remain_in_the_system"], label[for="enable_web_search_history"]{
+    font-weight: normal; 
+}
+
+#secret_question{
+    width: 350px;
+}
+
+#answer{
+    width: 380px;
+}
+
+#location{
+    width: 99%;
+}
+
+.captcha{
+    margin: 0 15px;
+}
+
+#capt{
+    width: 175px;
+}
+
+.print_ver{
+    float: right;
+    margin: 10px 10px 2px;
+  
+}
+
+#terms_of_use{
+    width: 98%;
+    
+}
+
+#terms_of_use{
+    margin-bottom: 15px;
+}
+
+.accept{
+    width: 90%;
+    margin: 15px auto 30px;
+    display: block;
+}
