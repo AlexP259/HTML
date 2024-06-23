@@ -19,12 +19,29 @@ div{
     left: 450px;
     top: 450px;
 }
-.mouth{
+/* .mouth{
     background: yellow;
     width: 250px;
     height: 100px;
     left: 350px;
     top: 550px;
+} */
+.mouth{
+    background: white;
+    width: 250px;
+    height: 100px;
+    left: 350px;
+    top: 550px;
+}
+.mouth table{
+    width: 250px;
+    height: 100px;
+}
+.mouth td{
+    border: 1px solid black;
+}
+.empty{
+    background: black;
 }
 .l_eye, .r_eye{
     background: white;
@@ -95,7 +112,7 @@ div{
     top: 50px; 
 }
 .svetodiod{
-    background: yellow;
+    background: rgb(255, 135, 135);
     width: 50px;
     height: 50px;
     left: 450px;

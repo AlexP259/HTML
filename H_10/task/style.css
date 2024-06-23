@@ -8,6 +8,7 @@ body{
 
 .wrap{
     max-width: 1050px;
+    min-width: 418px;
     margin: 0 auto;
 }
 
@@ -39,6 +40,7 @@ body{
 
 .top__container{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
 }
@@ -118,7 +120,7 @@ body{
 
 /* section.choose */
 .choose{
-    padding: 145px 0 100px;
+    padding: 145px 0 70px;
 }
 .choose__container{
     display: flex;
@@ -157,9 +159,145 @@ body{
     margin: 15px 0 0 0;
 }
 
+/* section.clients_say*/
+.clients_say{
+    background-color: rgb(243, 243, 243);
+    padding: 80px 0 50px;
+}
+.clients_say__container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.clients_say__element{
+    background: rgb(255, 255, 255);
+    box-sizing: border-box;
+    flex-basis: 327px;
+    border: 1px solid rgb(222, 222, 222);
+    border-radius: 5px;
+    padding: 30px 35px;
+    margin-bottom: 30px;
+}
+.clients_say__element>h6{
+    color: rgb(115, 115, 115);
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    margin: 20px 23px 20px 0;
+}
+.author_of_the_review__container{
+    display: flex;
+    align-items: center;
+}
+.author_of_the_review__element h6{
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    margin: 0 0 0 15px;
+}
+.author_of_the_review__element--author{
+    color: rgb(255, 166, 43);
+}
+.author_of_the_review__element--position{
+    color: rgb(37, 43, 66);
+}
+
 /* section.team */
 .team{
-    border-top: 1px solid gray; /* убрать */
-    padding: 80px 0 92px;
+    padding: 80px 0 62px;
+}
+.team__container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.team__element{
+    margin-bottom: 30px;
+    box-sizing: border-box;
+    border: 1px solid rgb(238, 238, 238);
+    background: rgb(255, 255, 255);
+}
+.team__element > img{
+    width: 100%;
+}
+.team__element h5{
+    color: rgb(37, 43, 66);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+    text-align: center;
+    margin: 30px 0 5px;
+} 
+.team__element h6{
+    color: rgb(115, 115, 115);
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    text-align: center;
+    margin: 0 0 5px;
+} 
+.team__element--social{
+    display: flex;
+    justify-content: space-between;
+    width: 102px;
+    margin: 0 auto 30px;
+}
+
+/* section.contact_us */
+
+@media(max-width: 1050px){
+    .top, .choose, .team, .clients_say{
+        padding-left: 16px;
+        padding-right: 16px;
+        box-sizing: border-box;
+    }
+}
+@media(max-width: 1030px){
+    .choose__container, .team__container, .clients_say__container{
+        justify-content: space-evenly;
+    }
+}
+@media(max-width: 760px){
+    .break{
+        display: none;
+    }
+    .top h1{
+        font-size: 50px;
+    }
+}
+@media(max-width: 710px){
+    .choose__element, .team__element{
+        flex-basis: 100%;
+    }
+    .clients_say{
+        padding: 80px 0 64px;
+    }
+}
+@media(max-width: 430px){
+    .top{
+        padding-left: 63px;
+        padding-right: 63px;
+        box-sizing: border-box;
+    }
+    .top h1{
+        font-size: 40px;
+    }
+    .top__buttons{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .top__buttons--left{
+        margin-right: 0;
+        margin-bottom: 25px;
+    }
+    .top__buttons--right{
+        margin-left: 0;
+    }
 }
 
